@@ -2,19 +2,19 @@
 
     body {
       font-family: Arial, sans-serif;
-      background: #b0b0f0;
+      background: #fdfdfd;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
     .information-form {
-      background: #ced1d1;
+      background: #fafdfd;
       padding: 50px;
       margin-top: 40px;
       border-radius: 15px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 350px;
+      width: 600px;
     }
     
     .information-form h2 {
@@ -30,7 +30,8 @@
       color: #555;
     }
     .information-form input,
-    .information-form textarea {
+    .information-form textarea,
+    .information-form select {
       width: 100%;
       padding: 10px;
       margin-bottom: 15px;
