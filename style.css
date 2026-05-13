@@ -1,57 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;   /* stack children vertically */
+  align-items: center;      /* center them horizontally */
+  min-height: 100vh;
+  margin: 0;
+}
 
+.top-links {
+  background: #adaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+  width: 100%;              /* span full width above form */
+}
 
-   
-   body {
-      font-family: Arial, sans-serif;
-      background: #fdfdfd;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .information-form {
-      background: #fafdfd;
-      padding: 50px;
-      margin-top: 40px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 600px;
-    }
-    
-    .information-form h2 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      text-align: center;
-      color: #333;
-    }
-    .information-form label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-      color: #555;
-    }
-    .information-form input,
-    .information-form textarea,
-    .information-form select {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-    
-    .information-form button {
-      width: 100%;
-      padding: 12px;
-      background: #d924f9;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    .information-form button:hover {
-      background: #eb20e1;
-    }
+.top-links a {
+  padding: 10px 15px;
+  color: #060505;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.top-links a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.information-form {
+  background: #fafdfd;
+  padding: 50px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 600px;
+}
+.information-form h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
   
