@@ -8,10 +8,12 @@ body {
   margin: 0;
 }
 .auth-links {
-  position: absolute;   /* fixes them at the top left */
-  top: 10px;
-  left: 10px;
+  position: fixed;   /* stays in place when scrolling */
+  top: 10px;         /* distance from top */
+  right: 10px;       /* distance from right */
+  z-index: 1000;     /* ensures it stays above other elements */
 }
+
 
 .auth-links a {
   margin-right: 15px;

@@ -1,0 +1,12 @@
+def quick_sort(arr):
+    if len(arr) <= 1:
+     return arr
+    pivot = arr[len(arr)//2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    print("Left:", left, "Pivot:", pivot, "Right:", right)
+    return quick_sort(left) + middle + quick_sort(right)
+
+data = [7, 3,11,10, 9, 1, 5,13, 12]
+print("Sorted:", quick_sort(data))
