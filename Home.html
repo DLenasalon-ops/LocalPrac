@@ -6,74 +6,76 @@
 
 <style type="text/css">
     body{
-        background-color: #f0f0f0;
+        background-color: #ffffff;
         font-family: Arial, sans-serif;
         font-style: italic;
-        color: #333333; 
+        color: hsl(0, 100%, 2%); 
         margin: 20px;
         list-style: 1.5;
+.highlight {
+  background-color: rgb(222, 237, 243); 
+  text-decoration: underline;
+  padding: 5px;
 
-    }
+
+}
+.special { text-align: center;}
     h1, h2, h3 {
-        color: #007bff;
+        color: black;
         text-align: center;
     }
+.toplinks {
+    display: flex;
+    color: rgb(4, 60, 66);
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
     h1{
         font-size: 25px;
         text-transform: uppercase;
 
     }
     h2{
-        text-decoration: rgb(4, 60, 66), underline;
+        text-decoration: rgb(13, 77, 84), underline;
         font-size: 15px;
     }
 </style>
 </head>
 <body>
+    <div class = "toplinks">   
         <a href="About Us.html"> Go to About Us Page Google </a>
         <a href="Contact Us.html"> Go to Contact Us Page Google </a>
         <a href="Patners.html"> Go to Partners Page Google </a> 
         <a href="Projects.html"> Go to Projects Page Google </a>
         <a href="Adverts.html"> Go to Adverts Page Google </a>  
+    </div>
+
         <h1> Hello World</h1>
-        <p> Welcome to my website
-            <br>
-            
-            <br>
-             I love java programming</p>
-             <ul type="square"> 
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-             </ul>
-             <div> 
-                <h1> Structure content on a web page </h1> </div>
-             <ol type="i" start ="5"> 
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                </ol>
-            <ol type = "A" start="3" color="red">
-                <li>Circle</li>
-                <li>Square</li>
-                <li>Blue</li>
-            </ol>
-            <dl>
-                <dt>Java</dt>
-                <dd>Java is a <u>programming language</u></dd>
-                <dt>Python</dt>
-                <dd>Python is a <i>programming language</i></dd>
-                <dt>JavaScript</dt>
-                <dd>JavaScript is a <strong>programming language</strong></dd>
-                <dt>SQL</dt>
-                <dd>SQL is a <em>database language</em></dd>
-            </dl>
-            <p style="color: #6d6d6d;"> This is a blue text</p>
-             <p style="color:green;"> This is a green text</p>
-              <p style="color:red;"> This is a red text</p>
-            &#169; 2024 All rights reserved. <br>
-            &reg; 2024 All rights reserved. <br>
-             &trade; 2024 All rights reserved. <br>
+        <p> This is my first webpage. I am learning HTML and CSS to create beautiful and functional websites.</p>
+        <h2>About Me</h2>   
+        <p> I am a web developer with a passion for creating user-friendly and visually appealing websites. I have experience in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and improve my skills.</p>
+        <h3>My Hobbies</h3> 
+        <ul> 
+            <li class="highlight">Coding</li>
+            <li class="highlight">Traveling</li>
+            <li class="highlight">Cooking</li>    
+        </ul>
+        <h4>Contact Information</h4>
+        <p>Email: <a href="mailto: deb.lenasalon@gmail.com">deb.lenasalon@gmail.com</a></p>
+        <p>Phone: (254) 702-238523</p>
+        <p>Address: 123 Main Street, Nairobi, Kenya</p> 
+        <h5>Follow Me</h5>
+        <ul>
+            <li><a href="https://www.facebook.com/deble">Facebook</a></li>
+            <li><a href="https://www.twitter.com/deble">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/deble">LinkedIn</a></li>   
+        </ul>   
+
+        
+            &#169;2024 All rights reserved. <br>
+        
              &spades;  
              &clubs; 
              &hearts; 
@@ -109,4 +111,3 @@
    <!-- charset stands for character set and specifies the character encoding for the HTML document, it tells the browser how to display the characters-->
     <!-- UTF-8 is the most commonly used character encoding -->
      <!--div is used for grouping HTML elements together, to create sections in your website-->
-
