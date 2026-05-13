@@ -43,7 +43,7 @@
     .information-form button {
       width: 100%;
       padding: 12px;
-      background: #007BFF;
+      background: #d924f9;
       color: #fff;
       border: none;
       border-radius: 5px;
@@ -51,6 +51,6 @@
       cursor: pointer;
     }
     .information-form button:hover {
-      background: #0056b3;
+      background: #eb20e1;
     }
   
