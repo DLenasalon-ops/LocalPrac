@@ -2,34 +2,35 @@
 
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f9;
+      background: #b0b0f0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-    .contact-form {
-      background: #fff;
+    .information-form {
+      background: #ced1d1;
       padding: 50px;
       margin-top: 40px;
-      border-radius: 8px;
+      border-radius: 15px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       width: 350px;
     }
-    .contact-form h2 {
+    
+    .information-form h2 {
       margin-top: 20px;
       margin-bottom: 20px;
       text-align: center;
       color: #333;
     }
-    .contact-form label {
+    .information-form label {
       display: block;
       margin-bottom: 5px;
       font-weight: bold;
       color: #555;
     }
-    .contact-form input,
-    .contact-form textarea {
+    .information-form input,
+    .information-form textarea {
       width: 100%;
       padding: 10px;
       margin-bottom: 15px;
@@ -38,7 +39,7 @@
       font-size: 14px;
     }
     
-    .contact-form button {
+    .information-form button {
       width: 100%;
       padding: 12px;
       background: #007BFF;
@@ -48,7 +49,7 @@
       font-size: 16px;
       cursor: pointer;
     }
-    .contact-form button:hover {
+    .information-form button:hover {
       background: #0056b3;
     }
   
